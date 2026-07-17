@@ -1,218 +1,174 @@
+# 📊 Sales Analysis Dashboard (Microsoft Excel)
 
-ChatGPT said:
-📊 Sales Analysis Dashboard
-A comprehensive Sales Analysis Dashboard built using Microsoft Power BI to analyze sales performance, customer purchasing behavior, product performance, and regional sales trends. The dashboard provides interactive visualizations and key performance indicators (KPIs) that enable businesses to make informed, data-driven decisions.
+## 📌 Project Overview
 
-📌 Project Overview
-The Sales Analysis Dashboard is designed to transform raw sales data into meaningful insights through interactive charts, graphs, and KPIs. It helps stakeholders monitor overall business performance, identify sales trends, evaluate product categories, and understand customer behavior.
+The **Sales Analysis Dashboard** is an interactive dashboard developed in **Microsoft Excel** to analyze and visualize sales data. It provides a comprehensive overview of business performance through Key Performance Indicators (KPIs), charts, and interactive filters. The dashboard enables users to monitor revenue trends, product performance, customer purchasing behavior, and regional sales distribution, helping organizations make informed business decisions.
 
-The dashboard includes dynamic filters that allow users to explore data by Delivery Date, Order Date, and Occasion, making it easy to perform customized analysis.
+---
 
-🎯 Objectives
-Analyze overall sales performance.
+## 🎯 Objectives
 
-Monitor revenue and order trends.
+- Analyze overall sales performance.
+- Monitor key business metrics.
+- Identify top-performing products and categories.
+- Track monthly and weekly sales trends.
+- Analyze customer purchasing behavior.
+- Identify top-performing cities based on orders.
+- Support business decision-making through interactive reports.
 
-Identify top-performing products and categories.
+---
 
-Discover high-performing cities and regions.
+## 📊 Dashboard KPIs
 
-Evaluate customer spending behavior.
+The dashboard highlights the following key performance indicators:
 
-Support strategic business decisions using interactive visualizations.
+- 💰 **Total Revenue:** ₹35,20,984
+- 📦 **Total Orders:** 1,000
+- 🛒 **Average Customer Spend:** ₹3,520.98
+- 🚚 **Average Order Delivery Time:** 5.53 Days
 
-📈 Dashboard KPIs
-KPI	Value
-💰 Total Revenue	₹35,20,984
-📦 Total Orders	1,000
-🛒 Average Customer Spend	₹3,520.98
-🚚 Average Delivery Time	5.53 Days
+---
 
-📊 Dashboard Features
-1. Revenue by Occasion
-Displays revenue generated during different occasions such as:
+## 📈 Dashboard Features
 
-Anniversary
+### Revenue by Occasion
+Displays revenue generated across different occasions such as:
+- Anniversary
+- Birthday
+- Diwali
+- Holi
+- Raksha Bandhan
+- Valentine's Day
 
-Birthday
+---
 
-Diwali
+### Revenue by Category
+Analyzes revenue generated from different product categories including:
+- Cake
+- Colors
+- Mugs
+- Plants
+- Raksha Bandhan Gifts
+- Soft Toys
+- Sweets
 
-Holi
+---
 
-Raksha Bandhan
+### Top 10 Cities by Orders
+Shows the cities with the highest number of customer orders, helping identify strong regional markets.
 
-Valentine's Day
+---
 
-Purpose:
+### Revenue by Month
+Displays monthly revenue trends to identify seasonal sales patterns and peak business periods.
 
-Identify the most profitable festive occasions.
+---
 
-Plan seasonal marketing campaigns.
+### Top 5 Products by Revenue
+Highlights the products generating the highest revenue.
 
-2. Revenue by Category
-Analyzes revenue across product categories including:
+---
 
-Cake
+### Revenue by Day of the Week
+Analyzes revenue distribution across weekdays to identify the best-performing sales days.
 
-Colors
+---
 
-Mugs
+## 🎛 Interactive Filters
 
-Plants
-
-Raksha Bandhan Gifts
-
-Soft Toys
-
-Sweets
-
-Purpose:
-
-Identify best-selling categories.
-
-Optimize inventory and product planning.
-
-3. Top 10 Cities by Orders
-Shows cities generating the highest number of customer orders.
-
-Purpose:
-
-Understand regional demand.
-
-Support location-based marketing strategies.
-
-4. Revenue by Month
-Visualizes monthly sales trends throughout the year.
-
-Purpose:
-
-Identify seasonal sales patterns.
-
-Forecast future demand.
-
-5. Top 5 Products by Revenue
-Ranks products based on generated revenue.
-
-Purpose:
-
-Identify high-performing products.
-
-Improve pricing and promotional strategies.
-
-6. Revenue by Day of the Week
-Shows revenue distribution across weekdays.
-
-Purpose:
-
-Determine peak shopping days.
-
-Schedule marketing campaigns effectively.
-
-🎛 Interactive Filters
 The dashboard includes dynamic slicers for:
 
-📅 Delivery Date
+- Delivery Date
+- Order Date
+- Occasion
 
-📅 Order Date
+These filters allow users to perform customized analysis and explore specific business scenarios.
 
-🎉 Occasion
+---
 
-These filters enable users to perform customized analysis and explore specific business scenarios.
+## 💡 Key Insights
 
-📌 Key Insights
-Generated ₹35.2 Lakhs in total revenue.
+- Generated **₹35.2 Lakhs** in total revenue.
+- Processed **1,000 customer orders**.
+- Average customer spending is **₹3,520.98**.
+- Average delivery time is **5.53 days**.
+- Anniversary is one of the highest revenue-generating occasions.
+- Colors and Soft Toys are among the best-performing product categories.
+- March records the highest monthly revenue.
+- Tuesday generates the highest revenue among weekdays.
+- Imphal records the highest number of customer orders.
 
-Processed 1,000 customer orders.
+---
 
-Average customer spending is ₹3,520.98.
+## 🛠 Tools Used
 
-Average delivery time is 5.53 days.
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Conditional Formatting
+- Excel Formulas
 
-Anniversary and Raksha Bandhan are among the highest revenue-generating occasions.
+---
 
-Colors, Soft Toys, and Sweets contribute significantly to total revenue.
+## 📂 Project Structure
 
-March records the highest monthly sales.
-
-Tuesday is the highest revenue-generating weekday.
-
-Imphal leads in customer order volume.
-
-🛠 Technologies Used
-Microsoft Power BI
-
-Microsoft Excel
-
-Power Query
-
-DAX (Data Analysis Expressions)
-
-Data Modeling
-
-📂 Project Structure
-
+```
 Sales-Analysis-Dashboard/
 │
 ├── Dataset/
-│   ├── sales_data.xlsx
+│   └── sales_data.xlsx
 │
 ├── Dashboard/
-│   ├── Sales Analysis Dashboard.pbix
-│
-├── Images/
-│   ├── dashboard.png
+│   └── Sales Analysis Dashboard.xlsx
 │
 └── README.md
-🚀 How to Use
-Clone this repository.
+```
 
-Bash
+---
 
-git clone https://github.com/your-username/sales-analysis-dashboard.git
-Open the .pbix file using Microsoft Power BI Desktop.
+## 🚀 How to Use
 
-Refresh the dataset if required.
+1. Download or clone this repository.
+2. Open the Excel dashboard file using Microsoft Excel (2016 or later recommended).
+3. Enable editing if prompted.
+4. Use the slicers to filter data by:
+   - Delivery Date
+   - Order Date
+   - Occasion
+5. Explore the charts and KPIs to gain business insights.
 
-Use the interactive filters to analyze:
+---
 
-Sales by Occasion
+## 📊 Business Benefits
 
-Product Categories
+- Provides a centralized view of sales performance.
+- Helps identify sales trends and seasonal demand.
+- Supports inventory and product planning.
+- Assists in evaluating customer purchasing behavior.
+- Enables region-wise sales analysis.
+- Facilitates data-driven business decisions.
 
-Monthly Trends
+---
 
-Top Cities
+## 🔮 Future Improvements
 
-Product Performance
+- Sales forecasting using Excel Forecast Sheet.
+- Customer segmentation analysis.
+- Profit and cost analysis.
+- Integration with Power Query for automated data refresh.
+- Additional KPIs and advanced dashboards.
 
-📷 Dashboard Preview
-<img width="1760" height="826" alt="Screenshot 2026-07-17 114926" src="https://github.com/user-attachments/assets/e28ebc6c-8f57-421a-b54b-8160dd1d2dc8" />
+---
 
-📊 Business Benefits
-Provides a centralized view of sales performance.
+## 👨‍💻 Author
 
-Enables data-driven decision-making.
+**RAJAN PAL**
 
-Identifies high-performing products and occasions.
+Sales Analysis Dashboard using Microsoft Excel
 
-Supports inventory optimization.
+---
 
-Improves customer and regional analysis.
+## 📄 License
 
-Helps forecast future sales trends.
-
-Enhances strategic planning and marketing effectiveness.
-
-🔮 Future Enhancements
-Customer segmentation using RFM Analysis.
-
-Sales forecasting using Machine Learning.
-
-Profit and cost analysis.
-
-Customer lifetime value analysis.
-
-Mobile-responsive dashboard.
-
-Integration with live databases (SQL Server, MySQL, Azure).
+This project is created for educational and learning purposes. Feel free to use and modify it with proper attribution.
